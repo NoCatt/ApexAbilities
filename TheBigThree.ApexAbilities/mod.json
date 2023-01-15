@@ -1,0 +1,21 @@
+{
+  "Name": "BspawnEntertainment.ApexAbilities",
+  "Description": "Cut content, yes yes",
+  "Version": "1.0.0",
+
+  "LoadPriority": 1,
+  "ConVars": [],
+  "Scripts": [
+    {
+      "Path": "mp_weapon_loba_bracelet.nut",
+      "RunOn": "( CLIENT || SERVER ) && MP",
+      "ServerCallback": {
+        "After": "loba_bracelet_Init"
+      },
+      "ClientCallback": {
+        "After": "loba_bracelet_Init"
+      }
+    }
+  ],
+  "Localisation": []
+}
